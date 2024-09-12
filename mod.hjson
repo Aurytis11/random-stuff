@@ -1,0 +1,7 @@
+name: "random-stuff"
+displayName: "Random Stuff"
+author: Aurytis11
+description: "My first mod that just adds in random things"
+version: "1.0"
+minGameVersion: "146"
+hidden: false

@@ -1,0 +1,31 @@
+type: Drill
+name: Titanium Drill
+health: 100
+size: 2
+description: Faster drill.
+hasItems: true
+hasLiquids: true
+tier: 3
+drillTime: 290
+liquidBoostIntensity: 2.31
+requirements: [
+lead/10
+copper/30
+graphite/15
+titanium/20
+]
+consumes: {
+  liquids:{
+   liquids:[
+   {
+     liquid: water
+     amount: 0.064
+   }
+   ]
+   optional:true
+   booster:true
+   }
+},
+category: production
+research: pneumatic-drill
+buildVisibility: shown

@@ -1,0 +1,16 @@
+type: LiquidSource
+name: Liquid Source
+health: 100
+size: 1
+description: Liquid Source.
+requirements: [
+metaglass/0
+]
+category: distribution
+research: {
+  parent: conduit
+  requirements: [
+    metaglass/1
+  ]
+}
+buildVisibility: shown

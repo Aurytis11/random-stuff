@@ -1,0 +1,22 @@
+type: LaunchPad
+name: Improved Launchpad
+health: 100
+size: 3
+description: Launchpad that can launch more items per launch.
+hasPower: true
+hasItems: true
+itemCapacity: 500
+consumes: {
+  power: 2.7
+}
+requirements: [
+copper/400
+lead/250
+silicon/180
+titanium/200
+]
+category: effect
+research: {
+  parent: launchpad
+}
+buildVisibility: campaignOnly

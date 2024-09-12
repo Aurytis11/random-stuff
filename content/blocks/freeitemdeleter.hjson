@@ -1,0 +1,18 @@
+type: ItemVoid
+name: Item Deleter
+health: 100
+size: 1
+description: Item Deleter.
+requirements: [
+copper/0
+lead/0
+]
+category: distribution
+research: {
+  parent: conveyor
+  requirements: [
+    copper/1
+    lead/1
+  ]
+}
+buildVisibility: shown

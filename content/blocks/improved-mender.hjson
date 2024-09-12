@@ -1,0 +1,34 @@
+type: MendProjector
+name: Improved Mender
+health: 100
+size: 1
+description: Slightly improved mender with increased range and speed.
+hasPower: true
+hasItems: true
+requirements: [
+lead/60
+copper/50
+graphite/15
+]
+consumes: {
+  power: 0.6
+  items:{
+   items:[
+   {
+     item: silicon
+     amount: 2
+   }
+   ]
+   optional:true
+   booster:true
+   }
+},
+reload: 150
+healPercent: 6
+range: 60
+phaseBoost: 6
+phaseRangeBoost: 30
+category: effect
+research: {parent:mender
+}
+buildVisibility: shown

@@ -1,0 +1,19 @@
+type: ItemSource
+name: Item Source
+health: 100
+size: 1
+description: Item Source.
+itemsPerSecond: 10000
+requirements: [
+copper/0
+lead/0
+]
+category: distribution
+research: {
+  parent: conveyor
+  requirements: [
+    copper/1
+    lead/1
+  ]
+}
+buildVisibility: shown
